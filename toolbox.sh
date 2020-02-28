@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# JetBrains Toolbox
+
 VERSION=1.16.6319
 
 wget -O /tmp/toolbox.tar.gz https://download.jetbrains.com/toolbox/jetbrains-toolbox-$VERSION.tar.gz
