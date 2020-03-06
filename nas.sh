@@ -10,7 +10,7 @@ apt install -y nfs-common
 
 # Set hostname
 
-echo "$NAS_IP nas" >> /etc/hosts
+echo "$NAS_IP	nas" >> /etc/hosts
 
 # Configure devices
 
