@@ -1,2 +1,3 @@
-# ubuntu
+# Ubuntu
+
 My Ubuntu set up.
