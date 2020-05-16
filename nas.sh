@@ -2,7 +2,7 @@
 
 # Mount NAS
 
-NAS_IP=192.168.0.2
+NAS_IP=192.168.1.253
 NAS_MOUNT=/media/nas
 
 apt update
