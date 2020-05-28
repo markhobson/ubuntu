@@ -2,7 +2,10 @@
 
 # Docker
 
-DIST=$(lsb_release -cs)
+# Ubuntu 20.04 not supported yet
+#DIST=$(lsb_release -cs)
+DIST=eoan
+
 DOCKER_USER=mark
 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
