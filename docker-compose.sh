@@ -2,7 +2,7 @@
 
 # Docker Compose
 
-VERSION=1.25.5
+VERSION=1.26.2
 
 curl -L "https://github.com/docker/compose/releases/download/$VERSION/docker-compose-$(uname -s)-$(uname -m)" \
 	-o /usr/local/bin/docker-compose
