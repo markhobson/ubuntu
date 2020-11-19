@@ -6,4 +6,4 @@ wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.
 dpkg -i /tmp/packages-microsoft-prod.deb
 
 apt update
-apt install -y dotnet-sdk-3.1
+apt install -y dotnet-sdk-5.0
