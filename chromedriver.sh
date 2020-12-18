@@ -2,7 +2,7 @@
 
 # ChromeDriver
 
-VERSION=86.0.4240.22
+VERSION=87.0.4280.88
 
 wget -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/$VERSION/chromedriver_linux64.zip
 unzip /tmp/chromedriver.zip -d /tmp
