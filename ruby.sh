@@ -3,7 +3,7 @@
 # Ruby
 
 apt update
-apt install -y ruby ruby-dev
+apt install -y ruby-full
 
 # Bundler
 
