@@ -2,5 +2,5 @@
 
 # Git
 
-sudo apt update
-sudo apt install -y git tig
+sudo apt-get update
+sudo apt-get install -y git tig
