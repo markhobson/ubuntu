@@ -2,5 +2,5 @@
 
 # Curl
 
-apt update
-apt install -y curl
+sudo apt update
+sudo apt install -y curl
