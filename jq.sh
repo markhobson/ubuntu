@@ -2,5 +2,5 @@
 
 # jq
 
-apt update
-apt install -y jq
+sudo apt update
+sudo apt install -y jq
