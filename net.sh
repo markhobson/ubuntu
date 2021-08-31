@@ -2,5 +2,5 @@
 
 # Net Tools
 
-apt update
-apt install -y net-tools
+sudo apt update
+sudo apt install -y net-tools
