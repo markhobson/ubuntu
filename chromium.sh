@@ -2,5 +2,5 @@
 
 # Chromium
 
-apt update
-apt install -y chromium-browser
+sudo apt update
+sudo apt install -y chromium-browser
