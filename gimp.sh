@@ -2,5 +2,5 @@
 
 # GIMP
 
-apt update
-apt install -y gimp
+sudo apt update
+sudo apt install -y gimp
