@@ -2,5 +2,5 @@
 
 # Java
 
-apt update
-apt install -y openjdk-8-jdk openjdk-8-source
+sudo apt update
+sudo apt install -y openjdk-8-jdk openjdk-8-source
