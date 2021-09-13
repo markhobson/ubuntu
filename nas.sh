@@ -5,8 +5,8 @@
 NAS_IP=192.168.1.253
 NAS_MOUNT=/media/nas
 
-sudo apt update
-sudo apt install -y nfs-common
+sudo apt-get update
+sudo apt-get install -y nfs-common
 
 # Set hostname
 
