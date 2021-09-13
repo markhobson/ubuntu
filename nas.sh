@@ -5,26 +5,26 @@
 NAS_IP=192.168.1.253
 NAS_MOUNT=/media/nas
 
-apt update
-apt install -y nfs-common
+sudo apt update
+sudo apt install -y nfs-common
 
 # Set hostname
 
-echo "$NAS_IP	nas" >> /etc/hosts
+echo "$NAS_IP	nas" | sudo tee -a /etc/hosts
 
 # Configure devices
 
-cat << EOF >> /etc/fstab
+cat << EOF | sudo tee -a /etc/fstab
 nas:/Public		$NAS_MOUNT/Public	nfs	defaults	0	0
 nas:/Qmultimedia	$NAS_MOUNT/Multimedia	nfs	defaults	0	0
 EOF
 
 # Create mount points
 
-mkdir -p \
+sudo mkdir -p \
 	$NAS_MOUNT/Public \
 	$NAS_MOUNT/Multimedia
 
 # Mount
 
-mount -a
+sudo mount -a
