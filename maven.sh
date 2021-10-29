@@ -2,10 +2,10 @@
 
 # Maven
 
-MIRROR=http://mirror.novg.net
+MIRROR=https://dlcdn.apache.org/
 VERSION=3.8.3
 
-wget -O /tmp/maven.tar.gz $MIRROR/apache/maven/maven-3/$VERSION/binaries/apache-maven-$VERSION-bin.tar.gz
+wget -O /tmp/maven.tar.gz $MIRROR/maven/maven-3/$VERSION/binaries/apache-maven-$VERSION-bin.tar.gz
 tar zxvf /tmp/maven.tar.gz -C /tmp
 rm /tmp/maven.tar.gz
 sudo mv /tmp/apache-maven-$VERSION /usr/local/
