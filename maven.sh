@@ -3,7 +3,7 @@
 # Maven
 
 MIRROR=http://mirror.novg.net
-VERSION=3.8.2
+VERSION=3.8.3
 
 wget -O /tmp/maven.tar.gz $MIRROR/apache/maven/maven-3/$VERSION/binaries/apache-maven-$VERSION-bin.tar.gz
 tar zxvf /tmp/maven.tar.gz -C /tmp
