@@ -2,5 +2,5 @@
 
 # Emacs
 
-sudo apt update
-sudo apt install -y emacs-nox
+sudo apt-get update
+sudo apt-get install -y emacs-nox
