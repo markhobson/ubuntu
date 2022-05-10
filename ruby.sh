@@ -2,8 +2,8 @@
 
 # Ruby
 
-apt update
-apt install -y ruby-full
+sudo apt update
+sudo apt install -y ruby-full
 
 # Bundler
 
