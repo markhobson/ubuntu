@@ -2,4 +2,4 @@
 
 # VLC
 
-snap install vlc
+sudo snap install vlc
