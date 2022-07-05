@@ -2,7 +2,7 @@
 
 # Geckodriver
 
-VERSION=v0.29.1
+VERSION=v0.31.0
 
 wget -O /tmp/geckodriver.tar.gz https://github.com/mozilla/geckodriver/releases/download/$VERSION/geckodriver-$VERSION-linux64.tar.gz
 tar xzf /tmp/geckodriver.tar.gz -C /tmp
