@@ -2,7 +2,7 @@
 
 # JetBrains Toolbox
 
-VERSION=1.24.11947
+VERSION=1.26.4.13374
 
 sudo apt-get install libfuse2
 
