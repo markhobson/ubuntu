@@ -9,4 +9,4 @@ sudo apt-get install -y ruby-full
 
 # Bundler
 
-gem install bundler
+sudo apt-get install -y ruby-bundler
