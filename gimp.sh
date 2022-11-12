@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # GIMP
 
 sudo apt-get update

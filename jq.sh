@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # jq
 
 sudo apt-get update

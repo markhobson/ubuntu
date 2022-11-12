@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Signal
 
 wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > /tmp/signal-desktop-keyring.gpg

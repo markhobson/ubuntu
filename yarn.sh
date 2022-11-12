@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Yarn
 
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -

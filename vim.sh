@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Vim
 
 sudo apt-get update

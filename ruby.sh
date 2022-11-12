@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Ruby
 
 sudo apt-get update

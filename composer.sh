@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Composer
 
 sudo apt-get update

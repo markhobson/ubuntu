@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Maven
 
 MIRROR=https://dlcdn.apache.org/

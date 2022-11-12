@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Net Tools
 
 sudo apt-get update

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Go
 
 VERSION=1.17.1

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # .NET Core
 
 wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O /tmp/packages-microsoft-prod.deb

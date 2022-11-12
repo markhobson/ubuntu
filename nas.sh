@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Mount NAS
 
 NAS_IP=192.168.1.253

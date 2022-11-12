@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Curl
 
 sudo apt-get update

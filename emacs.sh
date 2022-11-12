@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Emacs
 
 sudo apt-get update

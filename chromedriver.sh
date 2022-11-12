@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # ChromeDriver
 
 VERSION=$(curl -s https://chromedriver.storage.googleapis.com/LATEST_RELEASE)

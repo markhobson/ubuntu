@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Chromium
 
 sudo apt-get update

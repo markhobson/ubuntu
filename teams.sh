@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Microsoft Teams
 
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc

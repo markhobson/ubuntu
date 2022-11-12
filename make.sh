@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Make
 
 sudo apt-get update

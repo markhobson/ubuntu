@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Docker Compose
 
 VERSION=1.29.2

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Visual Studio Code
 
 wget -qO - https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /tmp/packages.microsoft.gpg

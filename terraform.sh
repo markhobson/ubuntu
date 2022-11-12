@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Terraform
 
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo tee /etc/apt/trusted.gpg.d/hashicorp.asc

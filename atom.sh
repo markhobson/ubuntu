@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Atom
 
 wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -

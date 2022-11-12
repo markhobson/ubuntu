@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # SimpleScreenRecorder
 
 sudo apt-get update

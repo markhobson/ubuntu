@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # JetBrains Toolbox
 
 VERSION=1.26.4.13374

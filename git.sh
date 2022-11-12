@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Git
 
 sudo apt-get update
