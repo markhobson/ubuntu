@@ -4,7 +4,7 @@ set -e
 
 # JetBrains Toolbox
 
-VERSION=1.26.4.13374
+VERSION=$(curl -s 'https://data.services.jetbrains.com/products/releases?code=TBA&latest=true' | jq -r .TBA[].build)
 
 sudo apt-get install libfuse2
 
