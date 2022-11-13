@@ -2,7 +2,7 @@
 
 set -e
 
-# .NET Core
+# .NET
 
 wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O /tmp/packages-microsoft-prod.deb
 sudo dpkg -i /tmp/packages-microsoft-prod.deb
