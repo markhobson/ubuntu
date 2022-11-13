@@ -13,5 +13,4 @@ sudo apt-get install -y docker-ce
 
 # Manage Docker as a non-root user
 
-sudo groupadd docker
 sudo usermod -aG docker $USER
