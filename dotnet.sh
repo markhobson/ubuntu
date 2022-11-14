@@ -18,3 +18,9 @@ EOF
 
 sudo apt-get update
 sudo apt-get install -y dotnet-sdk-6.0
+
+# Trust HTTPS certificate
+# See: https://learn.microsoft.com/en-us/aspnet/core/security/enforcing-ssl#ubuntu-trust-the-certificate-for-service-to-service-communication
+dotnet dev-certs https
+sudo -E dotnet dev-certs https -ep /usr/local/share/ca-certificates/aspnet/https.crt --format PEM
+sudo update-ca-certificates
