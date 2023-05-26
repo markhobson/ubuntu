@@ -4,7 +4,7 @@ set -e
 
 # Proton VPN
 
-wget -O /tmp/protonvpn.deb https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.3_all.deb
+wget -O /tmp/protonvpn.deb https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.3-2_all.deb
 sudo dpkg -i /tmp/protonvpn.deb
 rm -f /tmp/protonvpn.deb
 
