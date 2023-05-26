@@ -10,3 +10,7 @@ rm -f /tmp/protonvpn.deb
 
 sudo apt-get update
 sudo apt-get install -y protonvpn
+
+# Proton VPN system tray icon
+
+sudo apt-get install -y gnome-shell-extension-appindicator gir1.2-appindicator3-0.1
