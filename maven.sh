@@ -18,5 +18,5 @@ sudo update-alternatives \
 
 # Bash auto-completion
 
-sudo wget https://raw.github.com/dimaj/maven-bash-completion/master/bash_completion.bash \
+sudo wget https://raw.githubusercontent.com/juven/maven-bash-completion/master/bash_completion.bash \
 	--output-document /etc/bash_completion.d/mvn
