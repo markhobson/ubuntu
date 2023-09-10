@@ -4,11 +4,10 @@ set -e
 
 # ChromeDriver
 
-VERSION=$(curl -s https://chromedriver.storage.googleapis.com/LATEST_RELEASE)
+URL=$(curl -s https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json \
+	| jq -r '.channels.Stable.downloads.chromedriver[] | select(.platform == "linux64").url')
 
-wget -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/$VERSION/chromedriver_linux64.zip
-unzip /tmp/chromedriver.zip -d /tmp
+wget -O /tmp/chromedriver.zip $URL
+sudo unzip -o /tmp/chromedriver.zip -d /opt
 rm /tmp/chromedriver.zip
-sudo mkdir -p /opt/chromedriver
-sudo mv /tmp/chromedriver /opt/chromedriver
-sudo ln -sf /opt/chromedriver/chromedriver /usr/bin/chromedriver
+sudo ln -sf /opt/chromedriver-linux64/chromedriver /usr/bin/chromedriver
