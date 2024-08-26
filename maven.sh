@@ -5,7 +5,7 @@ set -e
 # Maven
 
 MIRROR=https://dlcdn.apache.org/
-VERSION=3.9.6
+VERSION=3.9.9
 
 wget -O /tmp/maven.tar.gz $MIRROR/maven/maven-3/$VERSION/binaries/apache-maven-$VERSION-bin.tar.gz
 tar zxvf /tmp/maven.tar.gz -C /tmp
