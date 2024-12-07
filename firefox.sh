@@ -21,4 +21,4 @@ Pin-Priority: 1000
 EOF
 
 sudo apt-get update
-sudo apt-get install firefox
+sudo apt-get install -y firefox
