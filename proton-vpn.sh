@@ -4,13 +4,13 @@ set -e
 
 # Proton VPN
 
-wget -O /tmp/protonvpn.deb https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.3-2_all.deb
+wget -O /tmp/protonvpn.deb https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.6_all.deb
 sudo dpkg -i /tmp/protonvpn.deb
 rm -f /tmp/protonvpn.deb
 
 sudo apt-get update
-sudo apt-get install -y protonvpn
+sudo apt-get install -y proton-vpn-gnome-desktop
 
 # Proton VPN system tray icon
 
-sudo apt-get install -y gnome-shell-extension-appindicator gir1.2-appindicator3-0.1
+sudo apt-get install -y libayatana-appindicator3-1 gir1.2-ayatanaappindicator3-0.1 gnome-shell-extension-appindicator
