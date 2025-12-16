@@ -6,7 +6,7 @@ set -e
 #
 # See: https://github.com/nodesource/distributions/wiki/Repository-Manual-Installation
 
-NODE_MAJOR=22
+NODE_MAJOR=24
 
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl gnupg
